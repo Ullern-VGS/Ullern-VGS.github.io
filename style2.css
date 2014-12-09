@@ -137,6 +137,10 @@ ul {
     top: 0;
 }
 
+#gallery img.black {
+    border-color: black;
+}
+
 #gallery img:nth-child(even) {
     top: 30px;
 }
