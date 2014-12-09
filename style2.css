@@ -118,7 +118,7 @@ ul {
 #gallery {
     width: 500px;
     position: absolute;
-    right: 350px;
+    right: 320px;
     top: 150px;
 }
 
@@ -132,12 +132,12 @@ ul {
     display: inline-block;
     position: relative;
     transition: 7s cubic-bezier(1,.21,.16,.89) 1s;
-    float: right;
+    float: left;
     bottom: 60px;
     top: 0;
 }
 
-#gallery img:nth-child(odd) {
+#gallery img:nth-child(even) {
     top: 30px;
 }
 
