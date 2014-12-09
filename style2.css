@@ -1,6 +1,6 @@
 html {
     padding: 0;
-    font-family: comic sans ms;
+    font-family: rotis;
 }
 
 body {
@@ -9,10 +9,11 @@ body {
 
 #waiter {
     position: fixed;
-    left: 500px;
-    top: 60px;
+    right: 10px;
+    top: 10px;
     z-index: 100;
     animation: 1s rotate infinite linear;
+    -webkit-animation: 1s rotate infinite linear;
     width: 150px;
     heihgt: 150px;
 }
@@ -114,25 +115,35 @@ ul {
     opacity: 1;
 }
 
-.fig {
+#gallery {
+    width: 500px;
+    position: absolute;
+    right: 350px;
+    top: 150px;
+}
+
+#gallery img {
+    margin-right: 10px;
+    margin-bottom: 10px;
     width: 200px;
-    height: 154px;
+    height: 125px;
     border: 10px solid white;
     overflow: hidden;
     display: inline-block;
     position: relative;
     transition: 7s cubic-bezier(1,.21,.16,.89) 1s;
+    float: right;
+    bottom: 60px;
+    top: 0;
 }
 
-.fig img {
-    height: inherit;
-    left: -35px;
-    position: absolute;
+#gallery img:nth-child(odd) {
+    top: 30px;
 }
 
-.fig:hover {
+#gallery img:hover {
     transition: 1s;
-    transform: scale(3) translateX(100px);
+    transform: scale(3);
 }
 
 #credit {

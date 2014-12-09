@@ -7,6 +7,26 @@ body {
     margin: 0;
 }
 
+#waiter {
+    position: fixed;
+    left: 500px;
+    top: 60px;
+    z-index: 100;
+    animation: 1s rotate infinite linear;
+    width: 150px;
+    heihgt: 150px;
+}
+
+@keyframes rotate{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+@-webkit-keyframes rotate{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
 #kalvequote {
     position: fixed;
     width: 800px;
@@ -78,6 +98,7 @@ ul {
 
 .fun--facts hr {
     width: 60%;
+    border: 1px solid black;
 }
 
 .fun--facts h2 {
@@ -114,6 +135,17 @@ ul {
     transform: scale(3) translateX(100px);
 }
 
+#credit {
+    background-color: grey;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    font-size: 10px;
+    text-align: center;
+    color: white;
+    transition: 1s;
+}
+
 /* colors -- colourlovers.com/palette/92095/Giant_Goldfish*/
 .blue { /*Aoi*/
     background-color: #69D2E7;
@@ -134,3 +166,4 @@ ul {
 .orange { /*Unreal food pills*/
     background-color: #FA6900;
 }
+

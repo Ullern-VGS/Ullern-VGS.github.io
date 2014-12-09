@@ -4,10 +4,13 @@
     <link rel="stylesheet" type="text/css" href="style2.css" />
   </head>
   <body class="grey">
+    <div id="waiter">
+      <img src="waiter.png" />
+    </div>
     <div id="kalvequote" class="blue--dull">
       Kampen er i gang. Snart har vi vunne. Om ein går historisk til verks og ser på alle dei store nynorske sigrane, så kan det ikkje vere mykje tvil om at vi snart er kvitt bokmålet. Det kan ikkje vere mykje tvil om at vi nærmar oss samfunnet vi alle drøymer om: Samfunnet der bokmålsbrukarane<br /> enten har gitt opp frivillig eller sit bak lås og slå.<br /><br />
 
-<i>~Are Kalvø~</i>
+      <i>~Are Kalvø~</i>
     </div>
     <section class="main--content">
       <h1 id="heading">Nynorsk er kult</h1>
@@ -40,6 +43,10 @@
 	<li>99 % av alle nynorskl&aelig;rarar er einige i at nynorsk er t&oslash;ft</li>
 	<li>Filmar som er dubba p&aring; nynorsk er 100 % meir spennande enn p&aring; originalspr&aring;ket</li>
       </ul>
+      <div id="credit">
+	Contents written by Einar Omang and Aksel Barkvoll<br />
+	Written and designed by Thorvald Ballestad
+      </div>
     </section>
   </body>
 </html>
