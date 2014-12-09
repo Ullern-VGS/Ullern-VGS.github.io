@@ -1,0 +1,22 @@
+body {
+    background: url("https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.wandrlust.com%2Fimages_products%2F4453_big.jpg&f=1");
+}
+
+div.image {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    border: 10px solid white;
+    overflow: hidden;
+    transform: rotate(2deg);
+    float: left;
+    margin: 10px;
+}
+
+div.image img {
+    width: inherit;
+}
+
+div.image:nth-child(even) {
+    transform: rotate(-2deg);
+}

@@ -1,0 +1,83 @@
+#crazy {
+    position: fixed;
+    left: 0;
+    top: 0;
+    animation: myanim 1s infinite linear;
+}
+
+@keyframes myanim {
+    0%    {left: 0px; top: 0px; color: red; font-size: 10px; transform: rotate(0deg)}
+    25%   {left: 200px; top: 0px; color: yellow;}
+    50%   {left: 200px; top: 200px; color: pink; font-size: 100px;}
+    75%   {left: 0px; top: 200px; color: brown;}
+    100%  {left: 0px; top: 0px; color: green; font-size: 10px; transform: rotate(720deg);}
+}
+
+body {
+    width: 900px;
+    min-height: 1200px;
+    margin: 20px auto;
+    border: 1px solid black;
+    padding: 10px 30px;
+}
+
+#heading {
+    text-align: center;
+    width: 100%;
+    font-family: algerian;
+}
+
+#heading:hover {
+    animation: myanim 1s linear infinite;
+}
+
+#location {
+    display: block;
+    position: fixed;
+    background: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 200px;
+    left: -180px;
+    transition: 0.4s;
+    box-shadow: 0 0 10px -5px;
+}
+
+#location:hover {
+    left: 0;
+    box-shadow: 0 0 10px 0 pink;
+}
+
+li {
+    position: relative;
+    transition: 0.3s;
+}
+
+li:hover {
+    transform: translateY(10px);
+    animation: myanim 1s linear infinite;
+}
+
+
+/* colors -- colourlovers.com/palette/92095/Giant_Goldfish*/
+.blue { /*Aoi*/
+    background-color: #69D2E7;
+}
+
+.blue--dull { /*Clean Pondwater*/
+    background-color: #A7DBD8;
+}
+
+.grey { /*Beach Storm*/
+    background-color: #E0E4CC;
+}
+
+.orange--dull { /*Giant Goldfish*/
+    background-color: #F38630;
+}
+
+.orange { /*Unreal food pills*/
+    background-color: #FA6900;
+}
