@@ -7,6 +7,21 @@ body {
     margin: 0;
 }
 
+#border--heart {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    animation: 1s border infinite;
+}
+
+@keyframes border {
+    0% {left: 0; top: 0;}
+    25% {right: 0; top: 0;}
+    50% {right: 0; bottom: 0;}
+    75% {left: 0; bottom: 0;}
+    100% {left: 0; top: 0;}
+}
+
 #waiter {
     position: fixed;
     right: 10px;
