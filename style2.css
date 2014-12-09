@@ -135,6 +135,13 @@ ul {
     float: left;
     bottom: 60px;
     top: 0;
+    animation: 1s blink;
+}
+
+@keyframes blink {
+    0% {opacity: 1;}
+    10% {opacity: 0;}
+    20% {opacity: 1;}
 }
 
 #gallery img.black {
