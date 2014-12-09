@@ -135,7 +135,7 @@ ul {
     float: left;
     bottom: 60px;
     top: 0;
-    animation: 1s blink;
+    animation: 1s blink infinite;
 }
 
 @keyframes blink {
