@@ -11,7 +11,7 @@ body {
     position: fixed;
     width: 10px;
     height: 10px;
-    animation: 10s border infinite;
+    animation: 10s border infinite linear;
 }
 
 #border--heart img {
