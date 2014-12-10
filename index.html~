@@ -5,7 +5,9 @@
     <meta charset="iso-8859-1">
   </head>
   <body class="grey">
-    <img id="border--heart" src="gallery/heartorgan.jpg" />
+    <div id="border--heart">
+      <img src="gallery/heartorgan.png" />
+    </div>
     <div id="waiter">
       <img src="waiter.png" />
     </div>

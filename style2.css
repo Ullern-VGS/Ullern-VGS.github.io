@@ -196,6 +196,7 @@ ul {
 
 #gallery img:hover {
     transition: 1s;
+    z-index: 2;
     transform: scale(3);
 }
 
