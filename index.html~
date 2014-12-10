@@ -2,8 +2,10 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="style2.css" />
+    <meta charset="iso-8859-1">
   </head>
   <body class="grey">
+    <img id="border--heart" src="gallery/heartorgan.jpg" />
     <div id="waiter">
       <img src="waiter.png" />
     </div>
@@ -15,6 +17,13 @@
     <section class="main--content">
       <h1 id="heading">Nynorsk er kult</h1>
       Kvifor nynorsk er så kult:
+      <div id="gallery">
+	  <img src="gallery/are.jpg" alt="Are kalvø" />
+	  <img src="gallery/lillyhammer.jpg" alt="Lillyhammer loves NY-norsk" />
+	  <img src="gallery/ivaras.jpg" alt="Ivar AAsen" />
+	  <img class="black" src="gallery/heart.png" alt="I heart nynorsk" />
+	  <img class="black" src="gallery/tommytiss.jpg" alt="Tommy tisser" />
+      </div>
       <ul>
 	<li>Nynorsk er fr&aring; Noreg og Noreg er kult</li>
 	<li>Alle dei kule kidza brukar nynorsk</li>
@@ -23,9 +32,7 @@
 	<li>Du blir smart av &aring; bruke nynorsk, og det er kult &aring; v&aelig;re smart</li>
 	<li>Kvis du skrivar nynorsk trur folk at du er smart og kul</li>
 	<li>Ordet &ldquo;kul&rdquo; kjem faktisk fr&aring; nynorsk</li>
-	<li><div class="fig">
-	    <img src="http://gfx.nrk.no/Gn-3MfG5GT0fGX5J2zp4pQTJIS-mGjGlZL3QFCYdHCMg.jpg" alt="Are kalvø" />
-	  </div>Are Kalvø brukar nynorsk, og han er kul.</li>
+	<li>Are Kalvø brukar nynorsk, og han er kul.</li>
 	<li>Kvis du ikkje skrivar nynorsk er du ein danske og det er ikkje kult</li>
 	<li>Nynorsk kallast landsm&aring;l, s&aring; heile landet b&oslash;r skrive det</li>
       </ul>

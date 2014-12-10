@@ -1,18 +1,31 @@
 html {
     padding: 0;
-    font-family: comic sans ms;
+    font-family: rotis;
 }
 
 body {
     margin: 0;
 }
 
+#border--heart {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    animation: 1s border infinite;
+}
+
+@keyframes border {
+    0% {width: 10px; }
+    25% {width: 100px;}
+}
+
 #waiter {
     position: fixed;
-    left: 500px;
-    top: 60px;
+    right: 10px;
+    top: 10px;
     z-index: 100;
     animation: 1s rotate infinite linear;
+    -webkit-animation: 1s rotate infinite linear;
     width: 150px;
     heihgt: 150px;
 }
@@ -114,25 +127,46 @@ ul {
     opacity: 1;
 }
 
-.fig {
+#gallery {
+    width: 500px;
+    position: absolute;
+    right: 320px;
+    top: 150px;
+}
+
+#gallery img {
+    margin-right: 10px;
+    margin-bottom: 10px;
     width: 200px;
-    height: 154px;
+    height: 125px;
     border: 10px solid white;
     overflow: hidden;
     display: inline-block;
     position: relative;
     transition: 7s cubic-bezier(1,.21,.16,.89) 1s;
+    float: left;
+    bottom: 60px;
+    top: 0;
+    animation: 1s blink infinite;
 }
 
-.fig img {
-    height: inherit;
-    left: -35px;
-    position: absolute;
+@keyframes blink {
+    0% {opacity: 1;}
+    10% {opacity: 0;}
+    20% {opacity: 1;}
 }
 
-.fig:hover {
+#gallery img.black {
+    border-color: black;
+}
+
+#gallery img:nth-child(even) {
+    top: 30px;
+}
+
+#gallery img:hover {
     transition: 1s;
-    transform: scale(3) translateX(100px);
+    transform: scale(3);
 }
 
 #credit {
