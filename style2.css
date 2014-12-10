@@ -16,14 +16,14 @@ body {
 
 #border--heart img {
     width: 10px;
-    position: relative;
+    position: absolute;
     right: 0;
     bottom: 0;
 }
 
 @keyframes border {
-    0% {width: 10px; }
-    25% {width: 100px;}
+    0% {width: 10px; height: 10px;}
+    25% {width: 100px; height: 100px;}
 }
 
 #waiter {
