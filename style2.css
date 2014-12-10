@@ -13,6 +13,7 @@ body {
     height: 10px;
     animation-name: border,onoff;
     animation-iteration-count: infinite;
+    animation-duration: 20s, 1s;
 }
 
 #border--heart img {
