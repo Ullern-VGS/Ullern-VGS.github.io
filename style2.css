@@ -161,7 +161,7 @@ ul {
     overflow: hidden;
     display: inline-block;
     position: relative;
-    transition: 7s cubic-bezier(1,.21,.16,.89) 1s;
+    transition: transform 7s cubic-bezier(1,.21,.16,.89) 1s;
     float: left;
     bottom: 60px;
     top: 0;
