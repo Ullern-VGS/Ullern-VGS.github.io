@@ -11,7 +11,7 @@ body {
     position: fixed;
     width: 10px;
     height: 10px;
-    animation: 10s border infinite linear;
+    animation: 20s border, onoff infinite linear;
 }
 
 #border--heart img {
@@ -19,6 +19,11 @@ body {
     position: absolute;
     right: 0;
     bottom: 0;
+}
+
+@keyframes onoff {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
 }
 
 @keyframes border {
