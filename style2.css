@@ -17,7 +17,7 @@ body {
 }
 
 #border--heart img {
-    width: 10px;
+    width: 20px;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -133,7 +133,7 @@ ul {
 
 .fun--facts {
     position: relative;
-    top: 800px;
+    top: 615px;
     min-height: 540px;
     padding-top: 10px;
     z-index: 2;
