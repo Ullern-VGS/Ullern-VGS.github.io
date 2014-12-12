@@ -1,6 +1,6 @@
 html {
     padding: 0;
-    font-family: rotis;
+    font-family: comic sans ms;
 }
 
 body {
@@ -23,6 +23,8 @@ body {
 
 #promotext {
     width: 80%;
+    text-align: center;
+    margin: 0 auto;
 }
 
 #border--heart img {
