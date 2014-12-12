@@ -21,6 +21,10 @@ body {
     -webkit-animation-timing-function: linear;
 }
 
+#promotext {
+    width: 80%;
+}
+
 #border--heart img {
     width: 20px;
     position: absolute;
