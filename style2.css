@@ -15,6 +15,10 @@ body {
     animation-iteration-count: infinite;
     animation-duration: 20s, 1s;
     animation-timing-function: linear;
+    -webkit-animation-name: border,onoff;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 20s, 1s;
+    -webkit-animation-timing-function: linear;
 }
 
 #border--heart img {
